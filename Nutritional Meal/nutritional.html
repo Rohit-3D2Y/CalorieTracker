@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Tracker</title>
+    <link rel="icon" href="/Login Page/favicon.png">
+    <link rel="stylesheet" href="nutritional.css">
+<body>
+
+    <div class="cursor">
+
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <div class="container">
+        <label for="find-recipe">Search Recipe:</label>
+        <input type="text" id="find-recipe">
+        <button id="search-recipe">Search</button>
+        
+        <button id="back-button">Back</button> <!-- New back button -->
+    </div>
+
+    <div id="display-recipe">
+        <!-- Recipes will be displayed here -->
+    </div>
+
+    <!-- Modal for displaying ingredients -->
+    <div class="modal" id="show-ingredients">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="box">
+                <h3 id="show-ingredients-title"></h3>
+                <div id="show-ingredients-body"></div>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <!-- Add necessary JavaScript libraries and scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="nutritional.js"></script>
+
+</body>
+
+</html>
